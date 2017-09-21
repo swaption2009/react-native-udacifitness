@@ -1,14 +1,18 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
 export default class App extends React.Component {
+  // componentDidMount () {
+  //   console.log('Before')
+  //   debugger
+  //   console.log('After')
+  // }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes y o u make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-        <Text>Hello React Native</Text>
+        <Ionicons name="md-checkmark-circle" size={32} color="green" />
       </View>
     );
   }
