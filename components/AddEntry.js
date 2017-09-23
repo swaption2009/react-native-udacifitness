@@ -79,6 +79,7 @@ class AddEntry extends Component {
     clearLocalNotification()
       .then(setLocalNotification)
   }
+
   reset = () => {
     const key = timeToString()
 
